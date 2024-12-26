@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Laxmikant Kadam, a passionate web developer with skills in front-end and back-end technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-list">
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress"><div class="progress-bar" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress"><div class="progress-bar" style="width: 80%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress"><div class="progress-bar" style="width: 75%;"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Python Game</h3>
+            <p>Developed a 2-D game using python and it's libraries.</p>
+            <a href="https://github.com/LAXMIKANT565/GameDev_project_Zelda" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>QR Code Generator</h3>
+            <p>A tool to generate QR codes using user input.</p>
+            <a href="https://github.com/LAXMIKANT565/QR-Generator" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Currency Convertor</h3>
+            <p>To covert currency using HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/LAXMIKANT565/Currency-Converter" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laxmikant. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
